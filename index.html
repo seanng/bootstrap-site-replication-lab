@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>`
+
+  <meta charset="UTF-8">
+  <title>The Next Web</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- NAVBAR here -->
+
+      <ul class="nav navbar-nav">
+         <li class="red dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> News <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+             <li><a href="#">-- News</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">Conference</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">Index</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">Deals</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">Academy</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">World Tour</a></li>
+           </ul>
+         </li>
+         <script>
+           $('ul.nav li.dropdown').hover(function() {
+           $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+           }, function() {
+           $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+           });
+         </script>
+         <li><a href="#">APPS</a></li>
+         <li><a href="#">GEAR</a></li>
+         <li><a href="#">TECH</a></li>
+         <li><a href="#">CREATIVE</a></li>
+         <li><a href="#">MONEY</a></li>
+         <li><a href="#">INSIGHTS</a></li>
+         <li><a href="#">LAUNCH</a></li>
+         <li><a href="#">WORLD</a></li>
+         <li><a href="#">DISTRACT</a></li>
+         <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MORE <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+             <li><a href="#">-- News</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">Conference</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">Index</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">Deals</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">Academy</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="#">World Tour</a></li>
+           </ul>
+         </li>
+         <script>
+           $('ul.nav li.dropdown').hover(function() {
+           $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+           }, function() {
+           $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+           });
+         </script>
+       </ul>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+  <!-- Container-Fluid Div here -->
+
+  <div class="container-fluid">
+    <div id = "boxA" class ="col-xs-12 col-md-6">
+      <figure>
+        <img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/08/unicorn.png" width="100%">
+        <h2>State of the Unicorn address: who’s growing and who’s shrinking (based on employee numbers)</h2>
+      </figure>
+    </div>
+    <div id = "boxesRight" class = "col-xs-12 col-md-6">
+      <div id = "boxB" class ="col-md-12 col-sm-4 col-sm-12">
+        <figure>
+          <img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2015/01/Incognito.jpg" width="100%">
+            <h3>Browsing for porn in Chrome's Incognito mode might not be as private as you think</h3>
+        </figure>
+
+      </div>
+        <div id = "boxC" class ="col-md-6 col-sm-4 col-sm-12">
+          <img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/01/shutterstock_306793247.jpg" width="100%">
+          <h3>6 business technology trends for 2016</h3>
+        </div>
+      <div id = "boxD" class ="col-md-6 col-sm-4 col-sm-12">
+        <img src="http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2014/12/1210_googlecardboard.jpg" width="100%">
+        <h3>Google Cardboard SDK adds spacial audio </h3>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
